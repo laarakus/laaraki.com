@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
           />
           <link rel="shortcut icon" href="/icons/favicon.ico" />
         </Head>
-        <body className="bg-black text-white">
+        <body className="text-white bg-black">
           <Main />
           <NextScript />
         </body>
