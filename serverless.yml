@@ -1,0 +1,11 @@
+name: "laaraki.com"
+
+laaraki.com:
+  component: "@sls-next/serverless-component@3.6.0"
+  inputs:
+    bucketName: "laaraki"
+    bucketRegion: "eu-west-3"
+    domain: "laaraki.com"
+    domainMinimumProtocolVersion: "TLSv1.2_2018"
+    cloudfront:
+      priceClass: "PriceClass_100"
